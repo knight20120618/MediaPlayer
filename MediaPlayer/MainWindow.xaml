@@ -12,9 +12,10 @@
         <Button x:Name="btnPause" Content="暫停" HorizontalAlignment="Left" Margin="122,386,0,0" VerticalAlignment="Top" Width="80" Height="23" Click="btnPause_Click"/>
         <Button x:Name="btnExit" Content="離開" HorizontalAlignment="Left" Margin="360,386,0,0" VerticalAlignment="Top" Width="80" Height="23" Click="btnExit_Click"/>
         <Button x:Name="btnStop" Content="停止" HorizontalAlignment="Left" Margin="241,386,0,0" VerticalAlignment="Top" Width="80" Height="23" Click="btnStop_Click"/>
-        <Button x:Name="btnOpenFile" Content="開啟檔案" HorizontalAlignment="Left" Margin="644,10,0,0" VerticalAlignment="Top" Width="75" Click="btnOpenFile_Click"/>
-        <TextBox x:Name="txtFilePath" HorizontalAlignment="Left" Height="20" Margin="82,10,0,0" TextWrapping="Wrap" Text="&lt;PATH&gt;" VerticalAlignment="Top" Width="500" FlowDirection="RightToLeft" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Slider x:Name="sliVolume" HorizontalAlignment="Left" Margin="481,386,0,0" VerticalAlignment="Top" Width="278" LargeChange="0.05" Maximum="1" TickFrequency="0.01" Value="0.5" ValueChanged="sliVolume_ValueChanged" Background="White" Height="23"/>
+        <Button x:Name="btnOpenFile" Content="開啟檔案" HorizontalAlignment="Left" Margin="671,10,0,0" VerticalAlignment="Top" Width="75" Click="btnOpenFile_Click"/>
+        <TextBox x:Name="txtFilePath" HorizontalAlignment="Left" Height="20" Margin="141,10,0,0" TextWrapping="Wrap" Text="&lt;PATH&gt;" VerticalAlignment="Top" Width="500" FlowDirection="RightToLeft" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Slider x:Name="sliVolume" HorizontalAlignment="Left" Margin="481,386,0,0" VerticalAlignment="Top" Width="279" LargeChange="0.05" Maximum="1" TickFrequency="0.01" Value="0.5" ValueChanged="sliVolume_ValueChanged" Background="White" Height="15"/>
         <Slider x:Name="sliProgress" HorizontalAlignment="Left" Margin="46,356,0,0" VerticalAlignment="Top" RenderTransformOrigin="-12.633,0.391" Width="700" Background="Black" PreviewMouseLeftButtonUp="sliProgress_PreviewMouseLeftButtonUp"/>
+        <TextBox x:Name="txtTime" HorizontalAlignment="Left" Height="19" Margin="46,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Text="&lt;TIME&gt;"/>
     </Grid>
 </Window>
